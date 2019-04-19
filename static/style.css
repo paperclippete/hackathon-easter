@@ -50,7 +50,7 @@ h1 {
 }
 
 .hpimg-1 {
-    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('/assets/images/Dwarf.jpg');
+    background-image: url('/assets/images/Dwarf.jpg');
     width: 100%;
     height: 600px;
 
