@@ -10,12 +10,12 @@ def index():
 
 @app.route('/form')
 def form():
-    return render_template("form.html",  page_title="Form")
+    return render_template("i.html")
 
 
 @app.route('/media')
 def media():
-    return render_template("media.html",  page_title="Media")
+    return render_template("media.html",  page_title="M")
    
     
     

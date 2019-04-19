@@ -5,20 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css" type="text/css" />
     <title>Spring</title>
 </head>
 <body>
-    
-    <head>
-    <title>Spring spirit</title>
-</head>
-
-
-    <nav>
-        <ul>
-            <li><a href="{{ url_for('index') }}">Home</a></li>
-            <li><a href="{{ url_for('media') }}">Media</a></li>
-            <li><a href="{{ url_for('form') }}">Form</a></li </ul>
+    <nav class="fixed-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-1 site-logo">
+            <a class= href="{{ url_for('index') }}"><img src="../static/assets/images/daffodill-logo.png"></a>
+          </div>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-lable="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-11 site-nav">
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('media') }}">Media</a></li>
+                <li><a href="{{ url_for('form') }}">Form</a></li> 
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
 
 <!-- Main Content -->
